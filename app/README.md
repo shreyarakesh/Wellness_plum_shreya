@@ -219,3 +219,56 @@ Back-and-forth between tips board and detailed tip views handled via callbacks a
 <img width="768" height="50" alt="Screenshot 2025-10-02 at 7 44 34 pm" src="https://github.com/user-attachments/assets/ab235580-2a71-46a0-be12-c6004954f57f" />
 
 <img width="790" height="667" alt="Screenshot 2025-10-02 at 7 44 47 pm" src="https://github.com/user-attachments/assets/2d1c6d9a-be9e-4333-86a2-58d2af4d85f2" />
+**AI Response Reliability**
+
+Issue: AI outputs may occasionally be malformed JSON, which can break parsing in the frontend.
+
+Improvement: Add schema validation (e.g., Zod/JSON Schema) and a JSON repair step to gracefully handle malformed responses.
+
+**Accessibility (A11y)**
+
+Issue: Current UI has limited keyboard navigation and screen reader support.
+
+Improvement: Add ARIA roles, ensure contrast compliance, and support full keyboard navigation.
+
+**Internationalization (i18n)**
+
+Issue: App is currently English-only.
+
+Improvement: Add multi-language support using libraries like i18next and enable RTL language support.
+
+**Data Persistence & Syncing**
+
+Issue: Favorites and profile data are stored only in LocalStorage.
+
+Improvement: Integrate with a backend database or cloud sync service (e.g., Firebase, MongoDB) to enable cross-device access.
+
+**Offline Support**
+
+Issue: App requires internet for AI responses.
+
+Improvement: Convert into a PWA and cache static assets and mock AI responses for offline usage.
+
+**Security Enhancements**
+
+Issue: API keys are secured in the backend proxy, but advanced protections are missing.
+
+Improvement: Add authentication, rate limiting, and logging for production environments.
+
+**UI Theming & Customization**
+
+Issue: App only supports dark mode by default.
+
+Improvement: Add theme toggle, font size adjustments, and custom color palettes for personalization.
+
+**BONUS WORK**
+
+Dark Mode: Fully implemented dark mode throughout the app for better readability and modern UI.
+
+Smooth Animations: Added subtle motion using Framer Motion for card transitions and tip expansions.
+
+Favorites Feature: Users can save favorite tips and access them in a dedicated section.
+
+Prompt Viewer: Users can inspect the AI prompt that generated the tips for transparency and experimentation.
+
+Responsive Grid Layout: Tips board dynamically adjusts to screen size for mobile and desktop.
