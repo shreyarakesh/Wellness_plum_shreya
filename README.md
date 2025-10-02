@@ -43,6 +43,8 @@ Open your browser at the displayed local URL (default http://localhost:5173/
 
 <img width="783" height="48" alt="Screenshot 2025-10-02 at 7 27 14 pm" src="https://github.com/user-attachments/assets/1cd2d7dd-926c-48ce-a86a-92fbd3576bd7" />
 
+
+
 The AI-Generated Wellness Recommendation Board is designed as a multi-screen application that guides users through a seamless and engaging journey, from capturing their personal details to receiving tailored wellness recommendations.
 The application flow consists of four main stages:
 <img width="807" height="466" alt="Screenshot 2025-10-02 at 7 28 48 pm" src="https://github.com/user-attachments/assets/ee215784-bead-4b4d-be76-8bdb8530762e" />
@@ -147,6 +149,8 @@ Purpose:
 <img width="788" height="46" alt="Screenshot 2025-10-02 at 7 38 22 pm" src="https://github.com/user-attachments/assets/dfc76e43-e2a4-4876-84fb-d75cb4bfcc35" />
 
 
+
+
 **Strict JSON Enforcement**: Prompts explicitly instruct the model to returnstructured JSON, preventing invalid outputs that would break parsing.
 
 **Length Control:** Titles are capped at 8 words for card readability, and steps are capped at 6 items to avoid overwhelming users.
@@ -177,6 +181,8 @@ Purpose:
 
 
 <img width="800" height="62" alt="Screenshot 2025-10-02 at 7 41 54 pm" src="https://github.com/user-attachments/assets/788d8624-b601-41bf-a25a-e1542a06c03a" />
+
+
 
 **Client-Server Separation:**
 The project follows a client-server architecture:
@@ -226,6 +232,9 @@ Back-and-forth between tips board and detailed tip views handled via callbacks a
 <img width="768" height="50" alt="Screenshot 2025-10-02 at 7 44 34 pm" src="https://github.com/user-attachments/assets/ab235580-2a71-46a0-be12-c6004954f57f" />
 
 <img width="790" height="667" alt="Screenshot 2025-10-02 at 7 44 47 pm" src="https://github.com/user-attachments/assets/2d1c6d9a-be9e-4333-86a2-58d2af4d85f2" />
+
+
+
 **AI Response Reliability**
 
 Issue: AI outputs may occasionally be malformed JSON, which can break parsing in the frontend.
