@@ -140,6 +140,8 @@ Purpose:
 
 
 <img width="788" height="46" alt="Screenshot 2025-10-02 at 7 38 22 pm" src="https://github.com/user-attachments/assets/dfc76e43-e2a4-4876-84fb-d75cb4bfcc35" />
+
+
 **Strict JSON Enforcement**: Prompts explicitly instruct the model to returnstructured JSON, preventing invalid outputs that would break parsing.
 
 **Length Control:** Titles are capped at 8 words for card readability, and steps are capped at 6 items to avoid overwhelming users.
