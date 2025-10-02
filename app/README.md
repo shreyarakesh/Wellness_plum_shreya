@@ -14,7 +14,7 @@ The solution is implemented as a web application using React + Vite (TypeScript)
 To safeguard sensitive API keys and maintain best practices, the project also integrates a Node/Express backend proxy. The proxy securely handles communication with AI providers (such as OpenAI’s API), preventing the exposure of keys in the browser and allowing centralized configuration of models and request limits.
 The application has been designed with mock mode for offline demos and real AI mode for production-ready deployments. This ensures evaluators, instructors, or users can interact with the system without needing API credentials, while still supporting real-world scenarios when connected to the backend proxy.
 Ultimately, this project demonstrates how generative AI can be responsibly embedded in consumer-facing applications to provide trustworthy, personalized wellness guidance while maintaining a balance between usability, security, and scalability.
-<img width="468" height="532" alt="image" src="https://github.com/user-attachments/assets/1d4d106a-877a-46a7-8044-ac3df8226a94" />
+
 
 
 
@@ -39,7 +39,8 @@ Open your browser at the displayed local URL (default http://localhost:5173/
 
 The AI-Generated Wellness Recommendation Board is designed as a multi-screen application that guides users through a seamless and engaging journey, from capturing their personal details to receiving tailored wellness recommendations.
 The application flow consists of four main stages:
-<img width="468" height="111" alt="image" src="https://github.com/user-attachments/assets/b08a190c-fee1-4142-849e-4dacfd00691a" />
+<img width="807" height="466" alt="Screenshot 2025-10-02 at 7 28 48 pm" src="https://github.com/user-attachments/assets/ee215784-bead-4b4d-be76-8bdb8530762e" />
+
 
 1.	Profile Screen
 o	Users begin by entering their age, gender, and primary wellness goal (e.g., weight management, improving sleep, boosting energy, stress reduction, or general wellness).
@@ -59,11 +60,35 @@ o	Users can save a tip directly from this screen for future reference.
 o	Users can bookmark and manage favorite tips, which are stored locally via browser LocalStorage.
 o	This persistence ensures that even after closing or refreshing the application, saved tips remain accessible.
 o	A dedicated favorites screen provides a personalized wellness board, allowing users to curate their most relevant recommendations over time.
-<img width="468" height="524" alt="image" src="https://github.com/user-attachments/assets/abb61707-724e-4173-b147-26ad9b42cd1e" />
 
-**SCREEN 1**
+Modes of Operation:
+•	Mock Mode (Offline Demo): Works without any API keys. The system generates tips from a pre-defined dataset, making it ideal for demonstrations, evaluations, or environments without internet connectivity.
+•	Real AI Mode (with Proxy): When configured, the frontend communicates through a secure Node/Express proxy. The proxy handles API calls to OpenAI (or other compatible providers), ensuring that API keys are kept private and never exposed to the browser. This makes the app production-ready and secure for deployment.
+By combining these flows and modes, the application achieves a balance of usability, reliability, and security while offering a polished end-to-end user experience.
+
+
+
+
+
+**SCREEN 1(LIGHT MODE)**
 <img width="1141" height="897" alt="Screenshot 2025-10-02 at 7 21 17 pm" src="https://github.com/user-attachments/assets/42b6504b-e96c-4143-8729-ed21dc41928d" />
 
+**SCREEN 1(DARK MODE)**
+<img width="1144" height="924" alt="Screenshot 2025-10-02 at 7 29 53 pm" src="https://github.com/user-attachments/assets/d5693543-2f24-4eca-9844-172b37ac1303" />
 
+**SCREEN 2(LIGHT MODE)**
+<img width="1141" height="920" alt="Screenshot 2025-10-02 at 7 30 27 pm" src="https://github.com/user-attachments/assets/b0a17412-6f6e-4d95-a53c-8d625dfdf7fa" />
+
+**SCREEN 2(DARK MODE)**
+<img width="1144" height="923" alt="Screenshot 2025-10-02 at 7 31 44 pm" src="https://github.com/user-attachments/assets/588fded7-af6a-4ea9-abca-870dd56ac382" />
+
+**SCREEN 3(LIGHT MODE)**
+<img width="1149" height="916" alt="Screenshot 2025-10-02 at 7 32 30 pm" src="https://github.com/user-attachments/assets/4124f7e9-8fd0-430d-8a22-a0b9205a752b" />
+
+**SCREEN 3(DARK MODE)**
+<img width="1150" height="922" alt="Screenshot 2025-10-02 at 7 32 52 pm" src="https://github.com/user-attachments/assets/f15d14f0-92bc-4fc3-b214-06b3a9e3c227" />
+
+**SCREEN 4(LIGHT MODE)**
+<img width="1141" height="919" alt="Screenshot 2025-10-02 at 7 33 21 pm" src="https://github.com/user-attachments/assets/24959bfa-1eda-4908-9b89-4d3d5442a8bc" />
 
 
