@@ -47,6 +47,8 @@ Open your browser at the displayed local URL (default http://localhost:5173/
 
 The AI-Generated Wellness Recommendation Board is designed as a multi-screen application that guides users through a seamless and engaging journey, from capturing their personal details to receiving tailored wellness recommendations.
 The application flow consists of four main stages:
+
+
 <img width="807" height="466" alt="Screenshot 2025-10-02 at 7 28 48 pm" src="https://github.com/user-attachments/assets/ee215784-bead-4b4d-be76-8bdb8530762e" />
 
 
@@ -69,7 +71,8 @@ o	Users can bookmark and manage favorite tips, which are stored locally via brow
 o	This persistence ensures that even after closing or refreshing the application, saved tips remain accessible.
 o	A dedicated favorites screen provides a personalized wellness board, allowing users to curate their most relevant recommendations over time.
 
-**Modes of Operation:**
+**Modes of Operation:**\
+
 •	**Mock Mode (Offline Demo)**: Works without any API keys. The system generates tips from a pre-defined dataset, making it ideal for demonstrations, evaluations, or environments without internet connectivity.
 •	**Real AI Mode** (with Proxy): When configured, the frontend communicates through a secure Node/Express proxy. The proxy handles API calls to OpenAI (or other compatible providers), ensuring that API keys are kept private and never exposed to the browser. This makes the app production-ready and secure for deployment.
 By combining these flows and modes, the application achieves a balance of usability, reliability, and security while offering a polished end-to-end user experience.
@@ -101,7 +104,11 @@ By combining these flows and modes, the application achieves a balance of usabil
 
 
 <img width="802" height="52" alt="Screenshot 2025-10-02 at 7 36 53 pm" src="https://github.com/user-attachments/assets/ba597e5a-091e-44a6-bdc3-048442b11f5e" />
+
+
 The quality and clarity of prompts directly affect the consistency, reliability, and safety of AI-generated outputs. For this project, two distinct prompt templates were crafted: one for generating short, actionable tips (displayed as cards) and another for producing detailed explanations (shown in the detail view).
+
+
 <img width="546" height="485" alt="Screenshot 2025-10-02 at 7 37 16 pm" src="https://github.com/user-attachments/assets/ba8ca4ae-bfac-44be-8898-cfc673c774e9" />
 
 
@@ -123,7 +130,10 @@ Purpose:
 •	Icons (e.g., 🛏️, 💧, 🍳) add quick visual recognition.
 •	Categories enable tagging and filtering in the UI.
 
+
 <img width="769" height="43" alt="Screenshot 2025-10-02 at 7 37 50 pm" src="https://github.com/user-attachments/assets/fa32ba17-1684-4550-a99b-ca5082b43c02" />
+
+
 You are a health coach. Create a detailed explanation with numbered, step-by-step advice for the following user:
 - Age: {age}
 - Gender: {gender}
@@ -144,6 +154,7 @@ Purpose:
 •	Adds “why” explanation to help users understand benefits.
 •	Provides step-by-step micro-actions to make adoption easy.
 •	Safety notes reinforce responsible AI use in health contexts.
+
 
 
 <img width="788" height="46" alt="Screenshot 2025-10-02 at 7 38 22 pm" src="https://github.com/user-attachments/assets/dfc76e43-e2a4-4876-84fb-d75cb4bfcc35" />
@@ -229,7 +240,9 @@ Back-and-forth between tips board and detailed tip views handled via callbacks a
 
 <img width="598" height="445" alt="Screenshot 2025-10-02 at 7 43 52 pm" src="https://github.com/user-attachments/assets/cf8ef62c-2db8-4b2f-b56e-541ee74d14eb" />
 
+
 <img width="768" height="50" alt="Screenshot 2025-10-02 at 7 44 34 pm" src="https://github.com/user-attachments/assets/ab235580-2a71-46a0-be12-c6004954f57f" />
+
 
 <img width="790" height="667" alt="Screenshot 2025-10-02 at 7 44 47 pm" src="https://github.com/user-attachments/assets/2d1c6d9a-be9e-4333-86a2-58d2af4d85f2" />
 
