@@ -7,6 +7,9 @@
 ![WhatsApp Image 2025-10-02 at 19 24 50](https://github.com/user-attachments/assets/42a7c14d-1b39-4a37-b4e4-d252c8095eab)
 
 <img width="793" height="67" alt="Screenshot 2025-10-02 at 7 26 05 pm" src="https://github.com/user-attachments/assets/95765e52-6ab7-4d3f-b203-d292b2282103" />
+
+
+
 This project was developed as a solution to Problem Statement 3: AI-Generated Wellness Recommendation Board, which focuses on leveraging AI to promote healthier lifestyles through personalized digital experiences.
 In today’s world, individuals are overwhelmed with general health advice from multiple sources, yet struggle to find tailored, actionable guidance that aligns with their age, lifestyle, and specific wellness goals. Modern wellness platforms often lack personalization, context awareness, and practical recommendations that users can easily adopt.
 The AI-Generated Wellness Recommendation Board addresses this gap by combining user profile capture (age, gender, and primary goal such as sleep improvement, weight management, or stress reduction) with AI-generated health and wellness tips. These tips are concise, engaging, and safe, designed to encourage micro-habit changes rather than overwhelming users with complex medical information.
@@ -98,6 +101,8 @@ By combining these flows and modes, the application achieves a balance of usabil
 <img width="802" height="52" alt="Screenshot 2025-10-02 at 7 36 53 pm" src="https://github.com/user-attachments/assets/ba597e5a-091e-44a6-bdc3-048442b11f5e" />
 The quality and clarity of prompts directly affect the consistency, reliability, and safety of AI-generated outputs. For this project, two distinct prompt templates were crafted: one for generating short, actionable tips (displayed as cards) and another for producing detailed explanations (shown in the detail view).
 <img width="546" height="485" alt="Screenshot 2025-10-02 at 7 37 16 pm" src="https://github.com/user-attachments/assets/ba8ca4ae-bfac-44be-8898-cfc673c774e9" />
+
+
 
 You are a health coach. Create 5 concise wellness tips for the following user:
 - Age: {age}
