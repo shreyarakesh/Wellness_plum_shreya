@@ -103,6 +103,10 @@ By combining these flows and modes, the application achieves a balance of usabil
 <img width="1141" height="919" alt="Screenshot 2025-10-02 at 7 33 21 pm" src="https://github.com/user-attachments/assets/24959bfa-1eda-4908-9b89-4d3d5442a8bc" />
 
 
+**SCREEN 4(DARK MODE)**
+
+
+
 <img width="802" height="52" alt="Screenshot 2025-10-02 at 7 36 53 pm" src="https://github.com/user-attachments/assets/ba597e5a-091e-44a6-bdc3-048442b11f5e" />
 
 
@@ -285,14 +289,20 @@ Issue: API keys are secured in the backend proxy, but advanced protections are m
 Improvement: Add authentication, rate limiting, and logging for production environments.
 
 
-**BONUS WORK**
 
-Dark Mode: Fully implemented dark mode throughout the app for better readability and modern UI.
 
-Smooth Animations: Added subtle motion using Framer Motion for card transitions and tip expansions.
+<img width="1008" height="81" alt="Screenshot 2025-10-03 at 11 31 57 pm" src="https://github.com/user-attachments/assets/d93596fc-1560-4a61-90ef-13f456087ae4" />
 
-Favorites Feature: Users can save favorite tips and access them in a dedicated section.
 
-Prompt Viewer: Users can inspect the AI prompt that generated the tips for transparency and experimentation.
 
-Responsive Grid Layout: Tips board dynamically adjusts to screen size for mobile and desktop.
+**Dark Mode:** Fully implemented dark mode throughout the app for better readability and modern UI.
+
+**Smooth Animations**: Added subtle motion using Framer Motion for card transitions and tip expansions.
+
+**Favorites Feature**: Users can save favorite tips and access them in a dedicated section.
+
+**Prompt Viewer**: Users can inspect the AI prompt that generated the tips for transparency and experimentation.
+
+**Responsive Grid Layout**: Tips board dynamically adjusts to screen size for mobile and desktop.
+
+**Audio/Muting Control**: Added audio functionality with a Mute/Unmute control provisioned in the application footer.
