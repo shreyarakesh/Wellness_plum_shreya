@@ -284,11 +284,6 @@ Issue: API keys are secured in the backend proxy, but advanced protections are m
 
 Improvement: Add authentication, rate limiting, and logging for production environments.
 
-**UI Theming & Customization**
-
-Issue: App only supports dark mode by default.
-
-Improvement: Add theme toggle, font size adjustments, and custom color palettes for personalization.
 
 **BONUS WORK**
 
