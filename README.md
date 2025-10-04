@@ -10,6 +10,9 @@
 
 
 
+˜By Shreya Rakesh 
+
+
 This project was developed as a solution to Problem Statement 3: AI-Generated Wellness Recommendation Board, which focuses on leveraging AI to promote healthier lifestyles through personalized digital experiences.
 In today’s world, individuals are overwhelmed with general health advice from multiple sources, yet struggle to find tailored, actionable guidance that aligns with their age, lifestyle, and specific wellness goals. Modern wellness platforms often lack personalization, context awareness, and practical recommendations that users can easily adopt.
 The AI-Generated Wellness Recommendation Board addresses this gap by combining user profile capture (age, gender, and primary goal such as sleep improvement, weight management, or stress reduction) with AI-generated health and wellness tips. These tips are concise, engaging, and safe, designed to encourage micro-habit changes rather than overwhelming users with complex medical information.
@@ -20,7 +23,7 @@ Ultimately, this project demonstrates how generative AI can be responsibly embed
 
 
 
-
+VIDEO 
 
 
 
@@ -104,6 +107,7 @@ By combining these flows and modes, the application achieves a balance of usabil
 
 
 **SCREEN 4(DARK MODE)**
+<img width="1168" height="926" alt="Screenshot 2025-10-03 at 11 39 12 pm" src="https://github.com/user-attachments/assets/fc2998f1-675a-4d32-881b-4f05fba7cc32" />
 
 
 
